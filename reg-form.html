@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+width: 100%;
+height: 100%;
+        }
+.container{
+    position: absolute;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: black ;
+    width: 50%;
+    height: 75%;
+    opacity: 50%;
+    border-radius: 20px;
+    border: 10px solid orangered;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: x-large;
+    color: white; 
+    
+}
+.ref-form{
+margin-bottom: 0px;
+margin-top: 0px;
+font-weight: 900;
+font-style: italic;
+
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.First-Name{
+    
+    width: 250px;
+    height: 30px;
+    gap: 20px;
+    border: 4.5px solid orangered;
+    border-radius: 10px;
+    margin-right: 150px;
+}
+
+.Second-Name{
+    
+    width: 250px;
+    height: 30px;
+    gap: 20px;
+    border: 4.5px solid orangered;
+    border-radius: 10px;
+}
+::placeholder{
+    color: black;
+    font-weight: 700;
+    font-style: italic;
+    
+    
+}
+.email{
+    border-style: solid;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 42px;
+    border: 4.5px solid orangered;
+}
+.number{
+    border-style: solid;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 4.5px solid orangered;
+    margin-left: 460px;
+    position: relative;
+    bottom: 38px;
+    right: 5px;
+}
+.pass{
+    border-style: solid;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 4.5px solid orangered;   
+}
+.password{
+   position: relative;
+   left: 42px;
+   bottom: 10px;
+}
+.gender{
+    color: white;
+    font-size: larger;
+    font-style: italic;
+    width: 280px;
+    border: 6.5px solid orangered;
+    border-radius: 15px;
+    display: inline-flex;
+    margin-left: 460px;
+    position: relative;
+    bottom: 38px;
+    right: 5px;
+    
+}
+input[type="text"]{
+    font-size: larger;
+    font-style: italic;
+    font-weight: 650;
+}
+.button{
+    color: black;
+    width:400px;
+    height:50px;
+    font-size: xx-large;
+   background-color: orangered; 
+   font-weight: 650;
+   font-style: italic;
+   border-radius: 10px ;
+   border: 10px solid orangered;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+}
+button:hover{
+    font-size: large;
+    color: white;
+    transform : scale(1.1);
+
+}
+
+
+  </style>
+</head>
+<body>
+    <img src="5329122.jpg" alt="Hand shaping">
+    <div class="container">
+    <div class="heading"><h1 class="reg-form"> REGISTRATION FORM</h1></div>
+    <div class="container1"> 
+        <input type="text" placeholder="FIRST NAME " class="First-Name" required>
+        <input type="text" placeholder="LAST NAME" class="Second-Name" required>
+    </div>
+    <div class="reach">
+        <input type="text" placeholder="E-MAIL" class="email">
+        <input type="number" placeholder="CONTACT NUMBER"  class="number"></div>
+<div class="password">
+    <input type="password" placeholder="PASSWORD" class="pass">
+   
+</div>
+<div class="gender"> GENDER:
+    <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br>
+</div> <div class="btn">
+    <button type="button" class="button">Click Here to Register</button></div>
+
+    </div>
+    
+</body>
+</html>
